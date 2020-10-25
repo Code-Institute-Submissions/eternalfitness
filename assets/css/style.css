@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=100,200,300,400,500,600,700');
+
+body {
+	margin: 0;
+	background: #fff;
+	font-family: 'sans-serif', lato;
+	font-weight: 700;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header {
+  background: #ABCC59;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  background: url(./assets/images/flourish.png);
+  float: left;
+  padding-top: 10%;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 40px;
+  padding-bottom: none;
+  position: relative;
+}
+
+nav a {
+  color: #4F2683;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 14px;
+}
+.hvr-shutter-in-horizontal:before {
+background: rgba(0, 0, 0, 0.2);
+height: 120px;
+}
