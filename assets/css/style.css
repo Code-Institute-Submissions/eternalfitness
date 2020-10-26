@@ -2,7 +2,6 @@
 
 body {
 	margin: 0;
-	background: #fff;
 	font-family: 'sans-serif', lato;
 	font-weight: 700;
 }
@@ -23,9 +22,10 @@ header::after {
 }
 
 .logo {
-  background: url(./assets/images/flourish.png);
+  background: url("/assets/images/flourish.png");
   float: left;
-  padding-top: 10%;
+  padding-top: 0%;
+  padding-bottom: 0%;
 }
 
 nav {
@@ -41,7 +41,7 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 50px;
-  padding-top: 40px;
+  padding-top: 70px;
   padding-bottom: none;
   position: relative;
 }
@@ -56,4 +56,26 @@ nav a {
 .hvr-shutter-in-horizontal:before {
 background: rgba(0, 0, 0, 0.2);
 height: 120px;
+}
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("/assets//images/strenght.jpg");
+    background-repeat: no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+}
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
