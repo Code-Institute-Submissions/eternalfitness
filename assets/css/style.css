@@ -22,10 +22,8 @@ header::after {
 }
 
 .logo {
-  background: url("/assets/images/eternal-logo.jpg");
+  background: url("/assets/images/eternal-fitness.jpg");
   float: left;
-  padding-top: 0%;
-  padding-bottom: 0%;
 }
 
 nav {
@@ -53,10 +51,7 @@ nav a {
   letter-spacing: 4px;
   font-size: 14px;
 }
-.hvr-shutter-in-horizontal:before {
-background: rgba(0, 0, 0, 0.2);
-height: 120px;
-}
+
 #hero-image {
     height: 600px;
     width: 100%;
@@ -70,6 +65,7 @@ height: 120px;
     height: 600px;
     width: 100%;
     overflow: hidden; 
+    position: relative;
 }
 @keyframes hero-zoom {
     from{
@@ -79,3 +75,38 @@ height: 120px;
         transform: scale(1.1);
     }
 }
+#cover-text, #cover-text h2 {
+    color: #fafafa;
+    font-weight: normal;
+    font-size: 130%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 2px;
+}
+#cover-text, #cover-text h3 {
+    color: #4F2683;
+    font-size: 100%;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.btn btn-primary {
+     background-color: rgba(79, 38, 131, 0.1);
+     color: white;
+}
+#cover-text{
+    width: 500px;
+    height: 200px;
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 80px;
+    background-color: rgba(171, 204, 89, .6);
+    bottom: 120px;
+    right: 400px;
+    position: absolute;
+} 
