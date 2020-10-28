@@ -95,9 +95,12 @@ nav a {
     text-align: center;
     letter-spacing: 2px;
 }
-.btn btn-primary {
-     background-color: rgba(79, 38, 131, 0.1);
-     color: white;
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: rgba(79, 38, 131, 0.6);
+    padding: .5cm .5cm; 
 }
 #cover-text{
     width: 500px;
