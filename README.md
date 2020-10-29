@@ -1,45 +1,20 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome Margaret027,
+Eternal Fitness
+Flourish is a class-based fitness centre to encourage and promote an active lifestyle for the mature population. Sedentary behaviour has long been associated with higher risk of cardiovascular disease and chronic disease. Only 30 minutes of moderate intensity aerobic exercise per day can improve mood, self-esteem and overall mental health on top of the physical benefits, according to the Irish Nutrition and Dietetic Institute. The concept behind Eternal Fintess is to reach out to populations of people who may feel intimidated by traditional gyms or lack knowledge. To make Eternal Fitness accessible to all, not matter what your age or fitness level, the class-based model works in accordance with activity level recommendations for older adults (50+). A combination of moderate, vigorous and muscle-strengthening exercise is a great recipe for fitness into older age and a great place for beginners to get into physical fitness.  Eternal Fitness operates a class only style gym experience. This model reduces overhead costs of having to pay staff and services for long hours with potentially low customer volume during non-peak times, from a business perspective. From a user perspective, with the populations I will be targeting we envisage that they will experience; 
+1. Motivation from being around like-minded people 
+2. Structured well rounded classes based on fitness coach recommendations (ie including warm ups and cool downs 
+3. Ensures proper form and guidance, thus reducing the chance of injury 
+4. Variety to prevent boredom and keep the body challenged 
+5. Accountability for keeping fit and sticking to a routine 
+6. Fun and enjoyable way to exercise 
+UX
+This website was created with the target customer in mind – an older, more mature customer seeking a solution to meet both fitness and social needs. Extensive use was made of pale, light and calming colours, recessive images and a friendly, welcoming and non-judgemental tone of voice. The wireframe and user journey focuses on clear and fuss free landing pages that are easy to navigate through with limited number of clicks. The aim for the end user/target audience is to feel comfortable when browsing the website and therefore be encouraged to take an action on the site such as filling out the Contact Form for more information, Booking a Free Trial or signing up to a membership plan. I have implemented the following:
+There are CTA’s on the home page, such as the Contact Us and Book a Free Trail. These CTA’s use contracting colours to the main theme colour in order to jump out of the page and thus more likely to be clicked. 
+The social media icons at the footer of the page are clearly identifiable. 
+Location and Contact Details are also positioned at the bottom of the home page and also across the rest of the site’s pages. This ensures a demonstrates a consistent design which is a general rule of thumb for effective web design and UX. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+•	A sign up page for the user to register to receive information on new music releases, tours, ticket releases etc.
+•	Biography section on the Personal Trainers to evoke trust. 
+•	A Membership page so users can choose to book from different class plans. 
+•	Social media links for users can follow us and keep up to date with the latest news, special offers tips and nutrition information. 

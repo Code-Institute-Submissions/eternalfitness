@@ -5,7 +5,7 @@ body {
 	font-family: 'sans-serif', lato;
 	font-weight: 700;
 }
-
+/*....................................................................................................................................header*/
 .container-fluid {
 	width: 100%;
 	margin: 0 auto;
@@ -26,6 +26,7 @@ header::after {
   float: left;
 }
 
+/*...................................................................................................................................navigation*/
 nav {
   float: right;
 }
@@ -49,9 +50,10 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 4px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
+/*.......................................................................................................................................hero-image*/
 #hero-image {
     height: 600px;
     width: 100%;
@@ -75,6 +77,7 @@ nav a {
         transform: scale(1.1);
     }
 }
+/*......................................................................................................................................cover-text*/
 #cover-text, #cover-text h2 {
     color: #4F2683;
     font-weight: normal;
@@ -95,6 +98,7 @@ nav a {
     text-align: center;
     letter-spacing: 2px;
 }
+
 .btn {
     display: inline-block;
     text-decoration: none;
@@ -145,5 +149,10 @@ h3 {
     color: #4F2683;
 }
 p {
-    color: fafafa;
+    color: #3F4443;
+    font-family: lato;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
 }
