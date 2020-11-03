@@ -174,7 +174,19 @@ transform: scale(0.8);
 transition: 1s ease;
 }
 .membership-button .btn {
-    position: relative;
     letter-spacing: 3px;
-    padding-bottom: 20px;
+}
+/*...................................................................................................................................Footer*/
+h5 {
+    font-family: lato;
+    list-style: none; 
+    font-size: 22px;
+    color: #4F2683;
+    text-align: center;
+
+}
+.location {
+    font-family: lato;
+    list-style: none; 
+    text-align: justify;
 }
