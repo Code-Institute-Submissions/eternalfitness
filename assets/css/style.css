@@ -42,10 +42,10 @@ font-size: 16px;
  color: #4F2683;   
 }
 .nav-link a:hover{
-color:  #fafafa;
+color:  grey;
 }
 .navbar-toggle .icon-bar {
-    background-color: black;
+    background-color: grey;
 }
 
 /*.......................................................................................................................................hero-image*/
@@ -177,8 +177,8 @@ transition: 1s ease;
 }
 .membership-button .btn {
     letter-spacing: 3px;
-    margin-top: 20%;
-    margin-bottom: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 /*...................................................................................................................................Footer*/
 h5 {
@@ -188,9 +188,8 @@ h5 {
     color: #4F2683;
     text-align: center;
  } 
-.footer-details i {
-    margin: 20px;
-}
+
+
 .location {
     font-family: lato;
     list-style: none; 
@@ -199,4 +198,34 @@ h5 {
 .trainer-photo {
     padding-bottom: 20px;
 }
+
+h3 a {
+color: #4F2683;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 4px;
+font-size: 16px;
+}
+h3 a:hover {
+    color: grey;
+    text-decoration: none;
+}
+/*..................................................................................................................Membership Table......*/
+.membership h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card-body .btn {
+    background-color:#ABCC59;
+    
+}
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
 
