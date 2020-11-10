@@ -211,15 +211,14 @@ h3 a:hover {
     text-decoration: none;
 }
 /*..................................................................................................................Membership Table......*/
-.membership h1 {
+
+.membership p {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 .card-body .btn {
     background-color:#ABCC59;
-    
 }
+
 /* Change the width of the three columns to 100%
 (to stack horizontally on small screens) */
 @media only screen and (max-width: 600px) {
