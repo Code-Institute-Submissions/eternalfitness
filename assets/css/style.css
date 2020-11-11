@@ -132,6 +132,7 @@ h1 {
     letter-spacing: 3px;
     font-size: 30px;
     color: #4F2683;
+    text-align: center;
 }
 h1::after {
     content: '';
@@ -211,13 +212,10 @@ h3 a:hover {
     text-decoration: none;
 }
 /*..................................................................................................................Membership Table......*/
-
 .membership p {
     text-align: center;
 }
-.card-body .btn {
-    background-color:#ABCC59;
-}
+
 
 /* Change the width of the three columns to 100%
 (to stack horizontally on small screens) */
