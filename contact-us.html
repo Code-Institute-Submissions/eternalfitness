@@ -42,80 +42,41 @@
 						<a class="nav-link" href="#">Membership</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">CONTACT US</a>
+						<a class="nav-link" href="#">Contact Us</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</header>
     
-    
-<!-------------------------------------------------------Membership-------------------------------------------------->
-  <section class="membership">
-  <h1 class="why-us">Membership Options</h1>
-  <p>At Eternal Fitness we offer 3 alternative membership plans to suit your individual preference. Payment can be made with a simple click of a button via paypal.</p>
-  <div class="card-deck mx-auto" style="width: 70rem;">
-  <div class="card border-secondary"> 
-    <div class="card-body bg: rgba(0, 0, 0, 0.2)">
-      <h5 class="card-title">7 Day Class Pass</h5>
-      <div class="membership-price text-center">
-                    <a class="btn btn-lg" href="https://www.paypal.com/ie/home" target="_blank" role="button">€120</a>
-                    </div>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    </div>
-    <ul class="list-group list-group-flush">
-    <li class="list-group-item text-center"><i class="fas fa-check" style="color: #ABCC59"></i>Access to all classes</li>
-    <li class="list-group-item text-center"><i class="fas fa-check" style="color: #ABCC59"></i>No contract</li>
-    <li class="list-group-item text-center"><i class="fas fa-check" style="color: #ABCC59"></i>Free Fitness & Health Assessment</li>
-  </ul>
-    <div class="card-footer text-center">
-      <a class="btn" href="https://www.paypal.com/ie/home" target="_blank" role="button">Book Now</a>
-    </div>
+    <!------------------------------------------------Contact Us Form------------------------------------------->
+<div class="why-us">
+  <h1>Contact Us</h1>
   </div>
-   <div class="card border-secondary">
-    <div class="card-body">
-      <h5 class="card-title">7 Day Class Pass</h5>
-      <div class="membership-price text-center">
-                    <a class="btn btn-lg" href="https://www.paypal.com/ie/home" target="_blank" role="button">€120</a>
-                    </div>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    </div>
-    <ul class="list-group list-group-flush">
-    <li class="list-group-item text-center"><i class="fas fa-check" style="color: #ABCC59"></i>Access to all classes</li>
-    <li class="list-group-item text-center"><i class="fas fa-check" style="color: #ABCC59"></i>No contract</li>
-    <li class="list-group-item text-center"><i class="fas fa-check" style="color: #ABCC59"></i>Free Fitness & Health Assessment</li>
-  </ul>
-    <div class="card-footer text-center">
-      <a class="btn" href="https://www.paypal.com/ie/home" target="_blank" role="button">Book Now</a>
-    </div>
-  </div>
-   <div class="card border-secondary">
-    <div class="card-body">
-      <h5 class="card-title">7 Day Class Pass</h5>
-      <div class="membership-price text-center">
-                    <a class="btn btn-lg" href="https://www.paypal.com/ie/home" target="_blank" role="button">€120</a>
-                    </div>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    </div>
-    <ul class="list-group list-group-flush">
-    <li class="list-group-item text-center"><i class="fas fa-check" style="color: #ABCC59"></i>Access to all classes</li>
-    <li class="list-group-item text-center"><i class="fas fa-check" style="color: #ABCC59"></i>No contract</li>
-    <li class="list-group-item text-center"><i class="fas fa-check" style="color: #ABCC59"></i>Free Fitness & Health Assessment</li>
-  </ul>
-    <div class="card-footer text-center">
-      <a class="btn" href="https://www.paypal.com/ie/home" target="_blank" role="button">Book Now</a>
-    </div>
-  </div>
-</div>
-<div class="col-md-12 text-center">
-<p>If you would like to find out more about our membership plans please click contact us below and we'll be happy to offer a free consultation.</p>
-                    <div class="membership-button">
-                    <a class="btn" href="#" role="button" style="background-color: #ABCC59">Contact Us</a>
-                    </div>
-                    </div>
-</section>
+   
+   <div class="container5">
+  <form action="action_page.php">
 
-                <!----------------------------------Footer------------------------------------------->
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+   <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    <label for="phone"><b>Phone Number</b></label>
+    <input type="text" placeholder="Enter Phone Number" name="Phone Number" id="Phone Number" required>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:70px"></textarea>
+    
+
+    <input type="submit" value="Submit">
+
+
+  </form>
+</div>
+                <!----------------------------------------------Footer------------------------------------------->
 
     <footer class="container-fluid">
         <div id="footer-details" class="row">
