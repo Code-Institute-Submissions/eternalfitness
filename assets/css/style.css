@@ -176,9 +176,8 @@ transition: 1s ease;
 transform: scale(0.8);
 transition: 1s ease;
 }
-.membership-button .btn {
+.membership-button {
     letter-spacing: 3px;
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 /*...................................................................................................................................Footer*/
