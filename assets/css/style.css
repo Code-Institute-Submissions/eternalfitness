@@ -58,6 +58,7 @@ h3 a {
 
 #hero-image {
     height: 600px;
+    width: 100%;
     max-width: 100%;
     background: url("/assets//images/strenght.jpg") no-repeat center center;
     animation-name: hero-zoom;
@@ -126,7 +127,7 @@ h3 a {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 5px;
+    font-size: 15px;
     color: #4F2683;
 }
 
@@ -149,6 +150,12 @@ h3 a {
 /* <--------- Footer --------> */
 #footer {
     background: #ABCC59;
+    
 } 
 
+
+.about-us {
+    max-width: 800px;
+    margin: auto;
+}
 
