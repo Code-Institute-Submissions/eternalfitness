@@ -153,9 +153,7 @@ h3 a {
     
 } 
 
-
-.about-us {
-    max-width: 800px;
+.container {
+    max-width: 1000px;
     margin: auto;
 }
-
