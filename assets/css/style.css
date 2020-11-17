@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=100,200,300,400,500,600,700');
 
+* {
+    overflow-x: hidden;
+}
+
 body {
 	margin: 0;
 	font-family: 'sans-serif', lato;
@@ -28,6 +32,10 @@ header {
 background: #ABCC59;
 }
 
+.navbar-brand {
+    margin: auto;
+}
+
 .nav-item {
 text-transform: uppercase;
 }
@@ -49,22 +57,24 @@ color:  grey;
 }
 
 /*.......................................................................................................................................hero-image*/
+#hero-outer {
+    overflow: hidden;
+    position: relative;
+}
+
 #hero-image {
-    height: 600px;
-    max-width: 100%;
-    background: url("/assets//images/strenght.jpg") no-repeat center center;
+    width: 100%;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    display: block;
+} 
+
+#hero-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden; 
-    position: relative;
-}
 @keyframes hero-zoom {
     from{
         transform: scale(1);
@@ -110,9 +120,11 @@ color:  grey;
     padding-left: 70px;
     padding-right: 80px;
     background-color: rgba(171, 204, 89, .6);
-    bottom: 120px;
-    right: 400px;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 } 
 /*......................................................................................Why Choose Eternal Section*/
 .container-fluid2 {
@@ -157,7 +169,7 @@ p {
     margin: 10px;
     text-align: justify;
 }
-/*...................................................................................................................................Homepage Classes*/
+/*................................................................................................Homepage Classes*/
 .container-fluid3 {
     background-color: #fafafa;
     width: 100%;
@@ -180,7 +192,17 @@ transition: 1s ease;
     letter-spacing: 3px;
     margin-bottom: 20px;
 }
+
 /*...................................................................................................................................Footer*/
+footer {
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer li {
+    margin: auto;
+}
+
 h5 {
     font-family: lato;
     list-style: none; 
@@ -193,7 +215,8 @@ h5 {
 .location {
     font-family: lato;
     list-style: none; 
-    text-align: justify;
+    padding: 0;
+
 }
 .trainer-photo {
     padding-bottom: 20px;
