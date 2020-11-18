@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=100,200,300,400,500,600,700');
 
-* {
-    overflow-x: hidden;
-}
 
 body {
 	margin: 0;
 	font-family: 'sans-serif', lato;
 	font-weight: 700;
+    overflow-x: hidden;
 }
-/*....................................................................................................................................header*/
+/*..................................header*/
 .container-fluid {
 	width: 100%;
     background:  #ABCC59;
@@ -27,13 +25,14 @@ header {
   float: left;
 }
 
-/*...................................................................................................................................navigation*/
+/*................................navigation*/
 .navbar {
 background: #ABCC59;
 }
 
 .navbar-brand {
     margin: auto;
+    padding: 0;
 }
 
 .nav-item {
@@ -45,6 +44,7 @@ color: #4F2683;
 text-transform: uppercase;
 letter-spacing: 4px;
 font-size: 16px;
+margin: auto;
 }
 .navbar-light .navbar-nav .nav-link  {
  color: #4F2683;   
@@ -56,7 +56,14 @@ color:  grey;
     background-color: grey;
 }
 
-/*.......................................................................................................................................hero-image*/
+.navbar-nav .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 50px;
+    line-height: 50px;
+}
+
+/*................hero-image*/
 #hero-outer {
     overflow: hidden;
     position: relative;
@@ -83,7 +90,7 @@ color:  grey;
         transform: scale(1.1);
     }
 }
-/*......................................................................................................................................cover-text*/
+/*.......................cover-text*/
 #cover-text, #cover-text h2 {
     color: #4F2683;
     font-weight: normal;
@@ -193,7 +200,7 @@ transition: 1s ease;
     margin-bottom: 20px;
 }
 
-/*...................................................................................................................................Footer*/
+/*................Footer*/
 footer {
     text-align: center;
     padding-top: 10px;
