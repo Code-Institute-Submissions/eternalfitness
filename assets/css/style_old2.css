@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=100,200,300,400,500,600,700');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'sans-serif', lato;
+    font-weight: 700;
+}
+
+.navbar {
+    background: #ABCC59;  
+    color: 
+}
+
+.navbar-brand {
+    margin: auto;
+}
+
+.nav-link {
+    color: #4F2683 !important;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+    color: #4F2683;   
+}
+
+.nav-link a:hover{
+   color:  grey;
+}
+
+.navbar-toggler .icon-bar {
+    background-color: grey;
+}
+
+/*.......................................................................................................................................hero-image*/
+#hero-outer {
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    max-width: 100%;
+    background: url("/assets//images/strenght.jpg") no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+} 
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+/*......................................................................................................................................cover-text*/
+#cover-text {
+    width: 500px;
+    height: 200px;
+    padding-top: 55px;
+    padding-left: 70px;
+    padding-right: 80px;
+    background-color: rgba(171, 204, 89, .6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#cover-text, #cover-text h2 {
+    color: #4F2683;
+    font-weight: normal;
+    font-size: 130%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#cover-text, #cover-text h3 {
+    color: #4F2683;
+    font-size: 100%;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: rgba(79, 38, 131, 0.6);
+    padding: .5cm .5cm; 
+}
+
+/*......................................................................................Why Choose Eternal Section*/
+#why-choose {
+    background-color: #ABCC59;
+}
+
+.why-us {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 5px;
+    color: #4F2683;
+}
+
+.why-us::after {
+    content: '';
+    background: #4F2683;
+    display: block;
+    width: 150px;
+    height: 3px;
+    margin: 10px auto;
+}
+
+/*......................................................................................Classes section*/
+h3 {
+    color: #4F2683;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+}
+
+h3 a {
+    color: #4F2683;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    }
+
+.shrink img {
+    transition: 1s ease;
+}
+    
+.shrink img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+
+.row-section .row {
+   margin-right: 0;
+}
+
+.row-section p {
+    color: #3F4443;
+}
+
+.row-section h3 {
+    color: #4F2683;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+}
+
+/*.......................................... Footer */
+#footer {
+    background: #ABCC59;
+    text-decoration: none;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: auto;
+}
+
+h5 {
+    font-family: lato;
+    list-style: none; 
+    font-size: 22px;
+    color: #4F2683;
+    text-align: center;
+    width: 100%;
+ } 
+
