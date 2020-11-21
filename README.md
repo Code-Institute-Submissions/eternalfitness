@@ -53,18 +53,28 @@ These can be found at the following links below:
 * **Social Media Links** - this feature allows users to follow us on Facebook, Twitter and Youtube for all the latest news
 * **Embedded Google MAP Find US** - to easily find our Location
 * **Contact Details** to get un touch with us Address, Email and phone details provided.
+# Future Features
+* Add client tetimonials to homepage
+* Add "sign up to members newsletter" form to encourage customer engagement and loyalty
+* Add website copyright at footer of website
+* Add SSL certificate for secure payment and also cookie policies and GDPR compliance notification also for security.
 
+ 
 # Technologies Used
 * **HTML5:** This was used as the layout to fully build the website
 * **CSS:** This was used to style the website
 * **Bootstrap:** This was used to get the overall clean layout and grids were used to help with 
 * **GitHub:** Version control and hosting of the code. 
 * **GitPod:** Allows you to develop, build, and run the application all on the cloud in the web browser. 
+* **Font Awesome** for icons
+**Google Fonts** for website fonts
 
 
 # Testing
 Using Bootstrap classes and some CSS, the UI adapts to the screen size. E.g. on mobile the header nav menu disappears behind a button. On mobile elements in the footer take up a full row while on desktop all the elements fit on one row. On the homepage the images in the classes section scale for screen size. On small screens one image fits per row, on medium screens 2 images per row, on large screens they all fit in one row. On the Membership page the 3 membership options scale based on screen size.
 Also used W3SSchools code verifier. and Google Dev tools.
+* **Links** All external links were tested to make sure they open up the correct pages in new tabs
+* [Code Validation W3C](https://validator.w3.org/)
 
 # Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -75,7 +85,7 @@ In particular, you should provide all details of the differences between the dep
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 # Credits
- * [Pexels](https://www.pexels.com/) I used this royalty free stock image site to get all my website images 
+ * https://validator.w3.org/ I used this royalty free stock image site to get all my website images 
  * [Canva](https://www.canva.com/) I used this site to create the logo and also sample timetable 
  * [Pixlr](https://pixlr.com/) I used this site to resize the images on the website 
  * I wrote all the content of the website much of which originated from my previous project in Digital Marketing.  (Link can be found in the acknowledgements) I wrote the content in a simple and clear way that is easily understandable and also key words used throughout to assist with SEO and rankings on the SERP in general so that with time the site could rank organically. A future blog with regular SEO friendly content would further accelerate rankings. 
