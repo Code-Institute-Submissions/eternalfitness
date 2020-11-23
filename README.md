@@ -23,11 +23,12 @@ Location and Contact Details are also positioned at the bottom of the home page 
 
 # Wireframe Mockups
 These can be found at the following links below:
-1. ![Homepage](readme.assets/HOMEPAGE.png)
-2. ![About Us](readme.assets/ABOUT.png)
-3. ![Classes](/readme.assets/CLASSES.png)
-4. ![Membership](/readme.assets/MEMBERSHIP.png)
-5. ![ContactUs](/readme.assets/CONTACT.png)
+1. [Homepage](readme.assets/HOMEPAGE.png)
+2. [About Us](readme.assets/ABOUT.png)
+3. [Classes](/readme.assets/CLASSES.png)
+4. [Membership](/readme.assets/MEMBERSHIP.png)
+5. [ContactUs](/readme.assets/CONTACT.png)
+
 
 
 
@@ -74,18 +75,22 @@ These can be found at the following links below:
 
 
 # Testing
-Using Bootstrap classes and some CSS, the UI adapts to the screen size. E.g. on mobile the header nav menu disappears behind a button. On mobile elements in the footer take up a full row while on desktop all the elements fit on one row. On the homepage the images in the classes section scale for screen size. On small screens one image fits per row, on medium screens 2 images per row, on large screens they all fit in one row. On the Membership page the 3 membership options scale based on screen size.
-Also used W3SSchools code verifier. and Google Dev tools.
+*Using Bootstrap classes and some CSS, the UI adapts to the screen size. E.g. on mobile the header nav menu disappears behind a button. On mobile elements in the footer take up a full row while on desktop all the elements fit on one row. On the homepage the images in the classes section scale for screen size. On small screens one image fits per row, on medium screens 2 images per row, on large screens they all fit in one row. On the Membership page the 3 membership options scale based on screen size.
+* Also used W3SSchools code verifier. and Google Dev tools.
+* I checked the site for responsivness on different devices such as desktop, tablet and mobile via Google developer tools and confirmed they were responsive.
+* I checked to see if the website worked on different actual devices and confirmed they were responsive.
+* I checked to see if website also worked across different browsers and confirmed they were responsive.
 * **Links** All external links were tested to make sure they open up the correct pages in new tabs
 * [Code Validation W3C](https://validator.w3.org/)
 
 # Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-* Different values for environment variables (Heroku Config Vars)?
-* Different configuration files?
-* Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+* To deploy my project i went to the settings gear icon on github pages and scrolled to github pages.
+* I clicked the dropdown under Source. 
+* I selected "Branch: master", and another dropdown appeared to the right. 
+* I selected "/(root)" in this dropdown. Then I clicked save.
+* The page reloaded. I then scrolled down to the GitHub Pages section again, and saw a message saying that my site was ready to be published.
+* I then opened this link and my site was ready to be published. 
+
 
 # Credits
  * https://validator.w3.org/ I used this royalty free stock image site to get all my website images 
